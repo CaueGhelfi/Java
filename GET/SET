@@ -1,0 +1,21 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    class Aluno
+    {
+        private string nome;
+        public string Nome { get; set; }
+
+        private int matricula;
+        public int Matricula { get; set; }
+
+        private string email;
+        public string Email { get; set; }
+
+    }
+}
